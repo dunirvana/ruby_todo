@@ -34,8 +34,7 @@ rails db:create
 ```
 rails g scaffold task description:string due_date:date done:boolean
 ```
-
-* After the run of the scaffold command edit the migration file "XXX_create_tasks.rb" to set "description" and "done" not null
+> After the run of the scaffold command edit the migration file "XXX_create_tasks.rb" to set "description" and "done" not null
 
 * Create tables
 ```
