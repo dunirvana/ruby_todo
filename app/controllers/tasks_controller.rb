@@ -63,7 +63,7 @@ class TasksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def task_params
-      params.require(:task).permit(:description, :due_date, :done)
+      params.require(:task).permit(:description, :due_date, :done, :parent_id)
     end
 
     def alert_flash_message_for(resource)
