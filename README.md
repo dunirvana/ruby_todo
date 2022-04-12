@@ -46,3 +46,15 @@ rails db:migrate
 rails c
 Task.create description: 'Buy fruits', done: false
 ```
+
+* Enters in console and creates the credentials
+```
+rails credentials:edit
+```
+
+* In credentials file put
+```
+authentication:
+  username: 'your_user'
+  password: 'your_password'
+```
